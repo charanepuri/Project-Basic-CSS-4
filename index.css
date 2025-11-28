@@ -1,0 +1,407 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* header */
+/* #header{
+    position: fixed;
+    top: 0%;
+    width: 1360px;
+} */
+
+#navheader{
+    display: flexbox;
+    background-color: white;
+    color: black;
+    height: 50px;
+    border: 2px solid brown;
+    font-size: 20px;
+    position: fixed;
+    /* top: 0%; */
+    width: 1380px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.anavheader{
+    text-decoration: none;
+    color: black;
+}
+
+span:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+.anavheader:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+/* main */
+/* Section 1 */
+#sec1main{
+    background-image: url("https://www.w3schools.com/w3images/architect.jpg");
+    height: 800px;
+    width: 1380px;
+}
+
+#psec1main{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding-top: 400px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+#bsec1main{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Section 2 */
+#psec2main{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+/* Section 3 */
+#sec3main{
+    height: auto;
+    width: auto;
+    /* border: 2px solid blueviolet; */
+}
+#aside1sec3main{
+    background-image: url("https://www.w3schools.com/w3images/house5.jpg");
+    height: 290px;
+    width: 350px;
+    margin-left: 10px;
+}
+
+#paside1sec3main{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#aside2sec3main{
+    background-image: url("https://www.w3schools.com/w3images/house2.jpg");
+    height: 290px;
+    width: 350px;
+    margin-left: 390px;
+    margin-top: -290px;
+}
+
+#paside2sec3main{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#aside3sec3main{
+    background-image: url("https://www.w3schools.com/w3images/house3.jpg");
+    height: 290px;
+    width: 350px;
+    margin-left: 770px;
+    margin-top: -290px;
+}
+
+#paside3sec3main{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#aside4sec3main{
+    background-image: url("https://www.w3schools.com/w3images/house4.jpg");
+    height: 290px;
+    width: 350px;
+    margin-left: 10px;
+}
+
+#paside4sec3main{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#aside5sec3main{
+    background-image: url("https://www.w3schools.com/w3images/house2.jpg");
+    height: 290px;
+    width: 350px;
+    margin-left: 390px;
+    margin-top: -290px;
+}
+
+#paside5sec3main{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#aside6sec3main{
+    background-image: url("https://www.w3schools.com/w3images/house5.jpg");
+    height: 290px;
+    width: 350px;
+    margin-left: 770px;
+    margin-top: -290px;
+}
+
+#paside6sec3main{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#aside7sec3main{
+    background-image: url("https://www.w3schools.com/w3images/house4.jpg");
+    height: 290px;
+    width: 350px;
+    margin-left: 10px;
+}
+
+#paside7sec3main{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#aside8sec3main{
+    background-image: url("https://www.w3schools.com/w3images/house3.jpg");
+    height: 290px;
+    width: 350px;
+    margin-left: 390px;
+    margin-top: -290px;
+}
+
+#paside8sec3main{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Section 4 */
+#p1sec4main{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#p2sec4main{
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+/* Section 5 */
+#sec5main{
+    /* border: 2px solid yellowgreen; */
+    height: auto;
+    width: auto;
+}
+
+#art1sec5main{
+    /* border: 2px solid olive; */
+    /* height: 700px; */
+    width: 250px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+#imgart1sec5main{
+    height: 150px;
+    width: 250px;
+}
+#btnart1sec5main{
+    width: 249px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#btnart1sec5main:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#art2sec5main{
+    /* border: 2px solid olive; */
+    /* height: 700px; */
+    width: 250px;
+    margin-left: 300px;
+    font-size: 15px;
+    margin-top: -330px;
+}
+#imgart2sec5main{
+    height: 150px;
+    width: 250px;
+}
+#btnart2sec5main{
+    width: 249px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#btnart2sec5main:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#art3sec5main{
+    /* border: 2px solid olive; */
+    /* height: 700px; */
+    width: 250px;
+    font-size: 15px;
+    margin-left: 600px;
+    margin-top: -330px;
+}
+#imgart3sec5main{
+    height: 150px;
+    width: 250px;
+}
+#btnart3sec5main{
+    width: 249px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#btnart3sec5main:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#art4sec5main{
+    /* border: 2px solid olive; */
+    /* height: 700px; */
+    width: 250px;
+    margin-left: 900px;
+    margin-top: -330px;
+    font-size: 15px;
+}
+#imgart4sec5main{
+    height: 150px;
+    width: 250px;
+}
+#btnart4sec5main{
+    width: 249px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#btnart4sec5main:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+/* Section 6 */
+#p1sec6main{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#p2sec6main{
+    margin-left: 10px;
+}
+
+input{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 1350px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: center;
+}
+button:hover{
+    color: black;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+/* Section 1 */
+
+/* #sec1footer{
+    border: 2px solid cadetblue;
+    height: 550px;
+    width: 100px;
+} */
+
+
+#imgsec1footer{
+    height: 600px;
+    width: 1363px;
+}
+
+/* Section 2 */
+#sec2footer{
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    height: 90px;
+    /* width: 900px; */
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+#asec2footer{
+    text-decoration: none;
+    color: white;
+}
+
+/* Section 3 */
+#sec3footer{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 20px;
+}
